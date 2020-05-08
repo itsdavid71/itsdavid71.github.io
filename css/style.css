@@ -281,6 +281,28 @@ a:hover {
   bottom: 35px;
 }
 
+@media (min-width: 1200px) {
+  .main-content-field, .header, .main-content-field {
+    padding-right: 650px;
+    padding-left: 50px;
+  }
+  .course-section {
+    padding-right: 650px;
+    padding-left: 50px;
+  }
+  .course-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000000000000;
+    background: #fff;
+    height: 100%;
+    overflow: auto;
+    -webkit-box-shadow: 0 0 20px 0px #00000010;
+            box-shadow: 0 0 20px 0px #00000010;
+  }
+}
+
 @media (max-width: 467px) {
   .main-content {
     margin: 50px auto;
